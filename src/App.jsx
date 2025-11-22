@@ -186,14 +186,16 @@ const App = () => {
       <div className="relative h-screen pt-28 flex items-center justify-center border-b border-zinc-800 overflow-hidden">
         {/* Background Image */}
         <div 
-          className="absolute inset-0 w-full h-full"
+          className="absolute w-full h-full"
           style={{
+            top: '112px',          // shift down the height of header+nav
             backgroundImage: 'url(/product_images/snow_jump.jpg)',
-            backgroundSize: '100% auto',
-            backgroundPosition: 'top center',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center top',
             backgroundRepeat: 'no-repeat',
           }}
         />
+
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-zinc-900/70 to-zinc-900" />
         <div className="relative z-10 text-center px-6">
