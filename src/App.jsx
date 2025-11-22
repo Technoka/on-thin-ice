@@ -183,7 +183,7 @@ const App = () => {
   const HomePage = () => (
     <div className="min-h-screen bg-zinc-900 text-gray-100 -mt-28">
       {/* Hero Section */}
-      <div className="relative h-screen flex items-center justify-center border-b border-zinc-800 overflow-hidden">
+      <div className="relative h-screen pt-28 flex items-center justify-center border-b border-zinc-800 overflow-hidden">
         {/* Background Image */}
         <div 
           className="absolute inset-0 w-full h-full"
