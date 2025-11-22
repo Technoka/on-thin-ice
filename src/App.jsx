@@ -197,8 +197,7 @@ const App = () => {
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-zinc-900/70 to-zinc-900" />
         <div className="relative z-10 text-center px-6">
-          <BrandSymbol size="text-4xl" bold={true} />
-          <h1 className="text-7xl md:text-9xl font-bold tracking-tight mt-8 mb-6">
+          <h1 className="text-7xl md:text-6xl font-bold tracking-tight mt-8 mb-6">
             ON THIN ICE
           </h1>
           <p className="text-xl text-gray-300 font-semibold tracking-wide">
