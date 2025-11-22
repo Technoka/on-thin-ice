@@ -192,7 +192,7 @@ const App = () => {
             backgroundSize: '100% auto',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',
-            marginTop: '-1px',
+            marginTop: '1px',
           }}
         />
         {/* Dark Overlay */}
