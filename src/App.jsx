@@ -181,7 +181,7 @@ const App = () => {
   );
 
   const HomePage = () => (
-    <div className="min-h-screen bg-zinc-900 text-gray-100">
+    <div className="min-h-screen bg-zinc-900 text-gray-100 -mt-28">
       {/* Hero Section */}
       <div className="relative h-screen flex items-center justify-center border-b border-zinc-800 overflow-hidden">
         {/* Background Image */}
@@ -192,7 +192,6 @@ const App = () => {
             backgroundSize: '100% auto',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',
-            marginTop: '1px',
           }}
         />
         {/* Dark Overlay */}
@@ -236,7 +235,7 @@ const App = () => {
     <div className="min-h-screen bg-zinc-900 text-gray-100 pt-32 pb-12">
       <div className="max-w-6xl mx-auto px-6">
         <h1 className="text-5xl font-bold tracking-wide mb-16 flex items-center gap-6">
-          COLLECTION
+          COLLECTION <BrandSymbol size="text-3xl" bold={true} />
         </h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -456,7 +455,7 @@ const App = () => {
       {isAnimating && <IceBreakAnimation />}
 
       {/* Page Content */}
-      <div className="pt-16">
+      <div className="pt-28">
         {currentPage === 'home' && <HomePage />}
         {currentPage === 'shop' && <ShopPage />}
         {currentPage === 'product' && <ProductPage />}
