@@ -183,22 +183,23 @@ const App = () => {
   const HomePage = () => (
     <div className="min-h-screen bg-zinc-900 text-gray-100">
       {/* Hero Section */}
-      <div className="relative h-screen flex items-center justify-center border-b border-zinc-800 overflow-hidden pt-16">
+      <div className="relative h-screen flex items-center justify-center border-b border-zinc-800 overflow-hidden">
         {/* Background Image */}
         <div 
-          className="absolute top-16 left-0 right-0 bottom-0 w-full"
+          className="absolute inset-0 w-full h-full"
           style={{
             backgroundImage: 'url(/product_images/snow_jump.jpg)',
             backgroundSize: '100% auto',
-            backgroundPosition: 'center center',
+            backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',
+            marginTop: '-1px',
           }}
         />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-zinc-900/70 to-zinc-900" />
         <div className="relative z-10 text-center px-6">
           <BrandSymbol size="text-4xl" bold={true} />
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mt-8 mb-6">
+          <h1 className="text-4xl md:text-7xl font-bold tracking-tight mt-8 mb-6">
             ON THIN ICE
           </h1>
           <p className="text-base text-gray-300 font-semibold tracking-wide">
